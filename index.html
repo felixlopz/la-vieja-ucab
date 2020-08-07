@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>La Vieja Ucab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300i"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>La Vieja Ucab</h1>
+
+      <div class="textcontainer">
+        <div id="role"></div>
+        <div id="activeUserCount"></div>
+        <div id="message"></div>
+      </div>
+
+      <div class="row">
+        <div id="0" class="square"></div>
+        <div id="1" class="square"></div>
+        <div id="2" class="square"></div>
+      </div>
+
+      <div class="row">
+        <div id="3" class="square"></div>
+        <div id="4" class="square"></div>
+        <div id="5" class="square"></div>
+      </div>
+
+      <div class="row">
+        <div id="6" class="square"></div>
+        <div id="7" class="square"></div>
+        <div id="8" class="square"></div>
+      </div>
+
+      <button class="btn" id="reset">Reiniciar</button>
+      <div class="textcontainer" style="margin-top: 100px;">
+        <div>Proyecto prototipo para la asignatura Redes II</div>
+        <p>Gabriela Albornoz</p>
+        <p>Ricardo Castellanos</p>
+        <p>Felix Lopez</p>
+        <p>Maria Ordaz</p>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

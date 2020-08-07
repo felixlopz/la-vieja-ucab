@@ -1,0 +1,81 @@
+.square {
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  /* background-color: #77e5e8; */
+  border: 1px solid black;
+}
+
+.container {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.textContainer {
+  justify-content: center;
+}
+
+#role {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#message {
+  padding-bottom: 20px;
+}
+
+#reset {
+  margin-top: 20px;
+  background-color: #0c5426;
+
+  padding: 10px;
+  font-size: 14px;
+}
+
+body {
+  color: #0c5426;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background-image: url("./logo.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.06;
+  z-index: -1;
+}
+
+button {
+  border-radius: 10px;
+  transition: 0.4s;
+  /* clear: both; */
+  width: 50%;
+  max-width: 300px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 1.125em;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0.3em 0.8em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
