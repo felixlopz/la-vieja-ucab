@@ -24,7 +24,7 @@ socket.on("reset", function (data) {
   for (var i = 0; i < 9; i++) {
     setSquare(i, "");
   }
-  setText(currentPlayer + " gets to start.");
+  setText(currentPlayer + " Comienza.");
 });
 
 // update state
